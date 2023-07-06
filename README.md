@@ -15,3 +15,11 @@
 - Creado el workflow tipo docker
 
 ![DOCKER](./img/4.png)
+
+- Comprobando que el workflow funciona correctamente.
+
+![DOCKER](./img/5.png)
+
+- Comprobando docker hub.
+
+![DOCKER](./img/6.png)
