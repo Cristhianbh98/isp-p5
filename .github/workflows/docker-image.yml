@@ -40,8 +40,8 @@ jobs:
       env:
         NEW_VERSION: ${{ steps.version.outputs.version }}  
       run: |
-        docker build -t cristhianbh98/docker-graphql_rest:$NEW_VERSION .
-        docker build -t cristhianbh98/docker-graphql_rest:latest .
+        docker build -t cristhianbh98/docker-graphql_rest:$NEW_VERSION ./backend
+        docker build -t cristhianbh98/docker-graphql_rest:latest ./backend
         
     - name: Push Docker Image
       env:
